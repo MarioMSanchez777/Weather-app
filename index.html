@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body onload="DefaultScreen()">
+    <center>
+        <h1 id="Para1"> 5-Day Weather</h1>
+        <p id="containerInput">City: <input type="text" id="citySearch"></p>
+        <button type="button" onclick="GetInfo()">Search</button>
+        <h3 id="cityName">--Arizona--</h3>
+    </center>
+
+    <div id="weatherContainer">
+        <div id="picContainer">
+            <div class="pic">
+                <p class="weather" id="day1"></p>
+                <div class="image"><img src="dots.jpg" class="imgStyle" id="picture1" alt=""></div>
+                <p class="minimumValue" id="day1Min">pending....</p>
+                <p class="maximumValue" id="day1Max">pending....</p>
+            </div>
+
+
+            <div class="pic">
+                <p class="weather" id="day2"></p>
+                <div class="image"><img src="dots.jpg" class="imgStyle" id="picture2" alt=""></div>
+                <p class="minimumValue" id="day2Min">pending....</p>
+                <p class="maximumValue" id="day2Max">pending....</p>
+            </div>
+
+
+            <div class="pic">
+                <p class="weather" id="day3"></p>
+                <div class="image"><img src="dots.jpg" class="imgStyle" id="picture3" alt=""></div>
+                <p class="minimumValue" id="day3Min">pending....</p>
+                <p class="maximumValue" id="day3Max">pending....</p>
+            </div>
+
+
+            <div class="pic">
+                <p class="weather" id="day4"></p>
+                <div class="image"><img src="dots.jpg" class="imgStyle" id="picture4" alt=""></div>
+                <p class="minimumValue" id="day4Min">pending....</p>
+                <p class="maximumValue" id="day4Max">pending....</p>
+            </div>
+
+
+            <div class="pic">
+                <p class="weather" id="day5"></p>
+                <div class="image"><img src="dots.jpg" class="imgStyle" id="picture5" alt=""></div>
+                <p class="minimumValue" id="day5Min">pending....</p>
+                <p class="maximumValue" id="day5Max">pending....</p>
+            </div>
+
+            <script src="script.js"></script>
+
+        </div>
+</body>
+
+</html>
